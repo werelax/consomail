@@ -1,0 +1,1 @@
+sbcl --core ~/bin/consomail.core --noinform --eval "(progn (consomail:send-email \"$1\" \"$2\") (quit))"
